@@ -5,34 +5,36 @@ export default function Navbar() {
     <div className="bg-customNav py-5 sm:py-3 text-white sm:flex  sm:justify-around">
       <div>
         <div className="flex justify-start pl-8 text-3xl ">
-          <h1 className="sm:mt-3 ">
-            Hassaan<span className="text-customBlue text-3xl">.</span>
-          </h1>
+          <Link href="/">
+            <h1 className="sm:mt-3 ">
+              Hassaan<span className="text-customBlue text-3xl">.</span>
+            </h1>
+          </Link>
         </div>
       </div>
       <div>
         <nav className="flex justify-evenly pt-5 sm:flex sm:justify-evenly ">
           <Link
             className="hover:text-customBlue sm:mx-5 hover:border-b-2 border-customBlue"
-            href="/home"
+            href="/"
           >
             Home
           </Link>
           <Link
             className="hover:text-customBlue  sm:mx-5 hover:border-b-2 border-customBlue"
-            href="resume"
+            href="/resume"
           >
             Resume
           </Link>
           <Link
             className="hover:text-customBlue sm:mx-5 hover:border-b-2 border-customBlue"
-            href="services"
+            href="/services"
           >
             Services
           </Link>
           <Link
             className="hover:text-customBlue sm:mx-5 hover:border-b-2 border-customBlue"
-            href="contact"
+            href="/contact"
           >
             Contact
           </Link>

@@ -15,31 +15,31 @@ export default function Homepage() {
         </p>
 
         <div className="flex py-10">
-          <button className=" w-24  rounded-3xl p-2 border border-customBlue mr-[12%] hover:bg-customBlue hover:text-customBlack">
+          <Link href="/contact"><button   className=" w-24  rounded-3xl p-2 border border-customBlue mr-[12%] hover:bg-customBlue hover:text-customBlack">
             Contact
-          </button>
+          </button></Link>
           <nav className="p-2  flex text-customBlue">
             <Link
               className="mx-2 hover:text-customBlack hover:bg-customBlue border-customBlue border p-1 rounded-full h-8 w-8 flex justify-center items-center"
-              href=""
+              href="https://github.com/MuhammadHassaanArain" target="_blank"
             >
               <FaGithub />
             </Link>
             <Link
               className="mx-2  hover:text-customBlack hover:bg-customBlue border-customBlue border p-1 rounded-full h-8 w-8 flex justify-center items-center"
-              href=""
+              href="https://www.linkedin.com/in/hassaan-arain-a56123290/"target="_blank"
             >
               <FaLinkedin />
             </Link>
             <Link
               className="mx-2  hover:text-customBlack hover:bg-customBlue  border-customBlue border p-1 rounded-full h-8 w-8 flex justify-center items-center"
-              href=""
+              href="https://www.facebook.com/profile.php?id=100094421088969" target="_blank"
             >
               <FaFacebook />
             </Link>
             <Link
               className="mx-2  hover:text-customBlack hover:bg-customBlue  border-customBlue border p-1 rounded-full h-8 w-8 flex justify-center items-center"
-              href=""
+              href="https://twitter.com/shutuphassaan"
             >
               <FaSquareXTwitter />
             </Link>

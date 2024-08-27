@@ -18,6 +18,7 @@ const config: Config = {
         customBlue:"#0b62d4",
         customNav: '#020717',
         customBlack:"#010512",
+        customBluebg:"#020f3b",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
